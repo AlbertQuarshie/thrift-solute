@@ -17,6 +17,7 @@ const Navbar = () => {
   };
 
   return (
+    <>
     <nav className="navbar">
       <Link to="/" className="logo">
         Thrift-Solute
@@ -52,6 +53,7 @@ const Navbar = () => {
         )}
       </div>
     </nav>
+    </>
   );
 };
 
